@@ -26,8 +26,8 @@ p{
 }
 .three{
   font-weight: bold;
+  text-alignment:center;
 }
 .four{
-  padding:3%;
-  text-alignment:center;
+  padding:7% 15%;
 }
