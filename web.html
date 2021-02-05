@@ -12,6 +12,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
     <link rel="stylesheet" href="master.css">
   </head>
   <body>
@@ -20,10 +21,7 @@
     <img src="amipoint.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
     AmiPoint
   </a>
-     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
 
     <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
       <li class="nav-item active">
@@ -38,10 +36,14 @@
       <li class="nav-item">
         <a class="nav-link" href="contact.html">Contact US</a>
       </li>
+      <li>
+        <a class="second" href="subscription.html"> <button type="button" class="btn btn-outline-dark btn-sm">Get Subscription</button></a>
+      </li>
     </ul>
   </div>
-<a class="second" href="subscription.html"> <button type="button" class="btn btn-outline-dark btn-sm">Get Subscription</button></a>
+
 </nav>
+<section>
 <div class="container">
  <div class="row">
    <div class="col-lg-6">
@@ -53,5 +55,40 @@
    </div>
  </div>
 </div>
+</section>
+<section>
+  <div class="header bg-secondary">
+    <h1>Why? AmiPoint</h1>
+  </div>
+  <div id="carouselExampleIndicators" class="carousel slide bg-secondary" data-bs-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+  </ol>
+  <div class="caro carousel-inner">
+    <div class="carousel-item active " data-bs-interval="7000">
+      <center><i class="fas fa-chart-line fa-5x btn-secondary"></i></center>
+        <p>We go with the flow & on the basics of need of an hour.</p>
+    </div>
+    <div class="carousel-item" data-bs-interval="7000">
+      <center><i class="fas fa-code-branch fa-5x btn-secondary"></i></center>
+        <p>We deal with latest versions of technologies which are in demand.</p>
+    </div>
+    <div class="carousel-item" data-bs-interval="7000">
+      <center><i class="fas fa-calendar-check fa-5x btn-secondary"></i></center>
+        <p>Always available, 24x7.</p>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </a>
+</div>
+</section>
   </body>
 </html>
