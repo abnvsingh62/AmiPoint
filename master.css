@@ -28,3 +28,10 @@ p{
 .five{
   padding: 1.5rem;
 }
+.six{
+  text-align: left;
+  font-family: Ubuntu;
+  font-size: 3.5rem;
+  color: grey;
+  font-weight: bolder;
+}
